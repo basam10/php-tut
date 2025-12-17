@@ -15,6 +15,10 @@ $data = [
 $students = $data["students"];
 
 foreach ($students as $student) {
+    // echo json_encode($student);
+    // foreach ($student as $item) {
+    //    echo $item . "\n";
+    // }
     foreach ($student as $key => $value) {
         echo "$key: $value\n";
     }
