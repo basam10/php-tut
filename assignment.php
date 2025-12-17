@@ -64,8 +64,16 @@ $students = [
 ];
 
 
-$first_student = $students[1];
+// $first_student = $students[1];
 
 foreach ($students as $key => $value) {
-    echo "$key: " . json_encode($value) . "\n";
+    // echo "$key: " . json_encode($value) . "\n";
+    $name = $value["name"];
+    $age = $value["age"];
+    $department = $value["department"];
+
+    echo "$name\nAge: $age\nDepartment: $department\n\n";
+    // foreach ($value as $item) {
+    //     echo json_encode($item) . "\n";
+    // }
 }
