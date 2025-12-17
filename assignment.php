@@ -62,3 +62,12 @@ $students = [
         ]
     ]
 ];
+
+//soln
+$studentInfo =$students[1][2][3];
+foreach ($studentsInfo as $student){
+    echo json_encode($student);
+    foreach($student as $key =>$value){
+         echo "$key: $value\n";
+    };
+};

@@ -12,9 +12,9 @@ $data = [
     ]
 ];
 
-$students = $data["students"];
+$studentsInfo = $data["students"];
 
-foreach ($students as $student) {
+foreach ($studentsInfo as $student) {
     // echo json_encode($student);
     // foreach ($student as $item) {
     //    echo $item . "\n";
