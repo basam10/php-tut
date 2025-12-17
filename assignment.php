@@ -62,3 +62,10 @@ $students = [
         ]
     ]
 ];
+
+
+$first_student = $students[1];
+
+foreach ($students as $key => $value) {
+    echo "$key: " . json_encode($value) . "\n";
+}
